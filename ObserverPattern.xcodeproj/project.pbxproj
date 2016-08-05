@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		77584E811D544B59008D0BF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584E801D544B59008D0BF9 /* main.m */; };
+		77584E8A1D5471AC008D0BF9 /* HanFeiZi.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584E891D5471AC008D0BF9 /* HanFeiZi.m */; };
+		77584E8E1D547389008D0BF9 /* LiSi.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584E8D1D547389008D0BF9 /* LiSi.m */; };
+		77584E921D548E3F008D0BF9 /* WangSi.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584E911D548E3F008D0BF9 /* WangSi.m */; };
+		77584E961D548F9B008D0BF9 /* LiuSi.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584E951D548F9B008D0BF9 /* LiuSi.m */; };
+		77584E9C1D5495F7008D0BF9 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584E9B1D5495F7008D0BF9 /* Subject.m */; };
+		77584E9F1D549735008D0BF9 /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584E9E1D549735008D0BF9 /* ConcreteSubject.m */; };
+		77584EA21D5498EF008D0BF9 /* ConcreteObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584EA11D5498EF008D0BF9 /* ConcreteObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,25 @@
 /* Begin PBXFileReference section */
 		77584E7D1D544B59008D0BF9 /* ObserverPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObserverPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		77584E801D544B59008D0BF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77584E871D547176008D0BF9 /* IHanFeiZi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHanFeiZi.h; sourceTree = "<group>"; };
+		77584E881D5471AC008D0BF9 /* HanFeiZi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanFeiZi.h; sourceTree = "<group>"; };
+		77584E891D5471AC008D0BF9 /* HanFeiZi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanFeiZi.m; sourceTree = "<group>"; };
+		77584E8B1D547338008D0BF9 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		77584E8C1D547389008D0BF9 /* LiSi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiSi.h; sourceTree = "<group>"; };
+		77584E8D1D547389008D0BF9 /* LiSi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiSi.m; sourceTree = "<group>"; };
+		77584E8F1D548A4D008D0BF9 /* Observable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
+		77584E901D548E3F008D0BF9 /* WangSi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WangSi.h; sourceTree = "<group>"; };
+		77584E911D548E3F008D0BF9 /* WangSi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WangSi.m; sourceTree = "<group>"; };
+		77584E931D548F75008D0BF9 /* ObserverPattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ObserverPattern001.png; sourceTree = "<group>"; };
+		77584E941D548F9B008D0BF9 /* LiuSi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiuSi.h; sourceTree = "<group>"; };
+		77584E951D548F9B008D0BF9 /* LiuSi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiuSi.m; sourceTree = "<group>"; };
+		77584E971D549527008D0BF9 /* ObserverPattern002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ObserverPattern002.png; sourceTree = "<group>"; };
+		77584E9A1D5495F7008D0BF9 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		77584E9B1D5495F7008D0BF9 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		77584E9D1D549735008D0BF9 /* ConcreteSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteSubject.h; sourceTree = "<group>"; };
+		77584E9E1D549735008D0BF9 /* ConcreteSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteSubject.m; sourceTree = "<group>"; };
+		77584EA01D5498EF008D0BF9 /* ConcreteObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteObserver.h; sourceTree = "<group>"; };
+		77584EA11D5498EF008D0BF9 /* ConcreteObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +67,7 @@
 		77584E741D544B59008D0BF9 = {
 			isa = PBXGroup;
 			children = (
+				77584E991D5495C4008D0BF9 /* Observer */,
 				77584E7F1D544B59008D0BF9 /* ObserverPattern */,
 				77584E7E1D544B59008D0BF9 /* Products */,
 			);
@@ -57,9 +84,35 @@
 		77584E7F1D544B59008D0BF9 /* ObserverPattern */ = {
 			isa = PBXGroup;
 			children = (
+				77584E931D548F75008D0BF9 /* ObserverPattern001.png */,
+				77584E971D549527008D0BF9 /* ObserverPattern002.png */,
 				77584E801D544B59008D0BF9 /* main.m */,
+				77584E871D547176008D0BF9 /* IHanFeiZi.h */,
+				77584E8B1D547338008D0BF9 /* Observer.h */,
+				77584E8F1D548A4D008D0BF9 /* Observable.h */,
+				77584E881D5471AC008D0BF9 /* HanFeiZi.h */,
+				77584E891D5471AC008D0BF9 /* HanFeiZi.m */,
+				77584E8C1D547389008D0BF9 /* LiSi.h */,
+				77584E8D1D547389008D0BF9 /* LiSi.m */,
+				77584E901D548E3F008D0BF9 /* WangSi.h */,
+				77584E911D548E3F008D0BF9 /* WangSi.m */,
+				77584E941D548F9B008D0BF9 /* LiuSi.h */,
+				77584E951D548F9B008D0BF9 /* LiuSi.m */,
 			);
 			path = ObserverPattern;
+			sourceTree = "<group>";
+		};
+		77584E991D5495C4008D0BF9 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				77584E9A1D5495F7008D0BF9 /* Subject.h */,
+				77584E9B1D5495F7008D0BF9 /* Subject.m */,
+				77584E9D1D549735008D0BF9 /* ConcreteSubject.h */,
+				77584E9E1D549735008D0BF9 /* ConcreteSubject.m */,
+				77584EA01D5498EF008D0BF9 /* ConcreteObserver.h */,
+				77584EA11D5498EF008D0BF9 /* ConcreteObserver.m */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77584EA21D5498EF008D0BF9 /* ConcreteObserver.m in Sources */,
+				77584E921D548E3F008D0BF9 /* WangSi.m in Sources */,
+				77584E9F1D549735008D0BF9 /* ConcreteSubject.m in Sources */,
+				77584E8E1D547389008D0BF9 /* LiSi.m in Sources */,
+				77584E9C1D5495F7008D0BF9 /* Subject.m in Sources */,
 				77584E811D544B59008D0BF9 /* main.m in Sources */,
+				77584E8A1D5471AC008D0BF9 /* HanFeiZi.m in Sources */,
+				77584E961D548F9B008D0BF9 /* LiuSi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
